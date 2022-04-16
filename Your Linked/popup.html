@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Link Gate</h1>
+    </header>
+
+    <div class="wrapper">
+        <div class="container bg-white shadow form-container">
+            <h2>Multi Clouds</h2>
+            <div class="icons">
+                <a href="https://www.dropbox.com/id/login" target="_blank">
+                    <button class="dropbox-button"></button>
+                </a>
+                <a href="https://drive.google.com/drive/my-drive" target="_blank">
+                    <button class="drive-button"></button>
+                </a>
+                <a href="https://my.pcloud.com/" target="_blank">
+                    <button class="pcloud-button"></button>
+                </a>
+                <a href="https://www.idrive.com/idrive/login/loginForm" target="_blank">
+                    <button class="iDrive-button"></button>
+                </a>
+                <a href="https://onedrive.live.com/about/id-id/signin/" target="_blank">
+                    <button class="onedrive-button"></button>
+                </a>
+                <a href="https://cp.sync.com/" target="_blank">
+                    <button class="sync-button"></button>
+                </a>
+            </div>
+        </div>
+        <button class="show-input-form btn-normal">Tambah Tautan</button>
+
+        <div class="container bg-white shadow form-container" id="add-note" hidden>
+            <h2 class="container-header text-center">Tambah Daftar Tautan</h2>
+            <form class="form" action="#" id="form">
+                <div class="form-group form-title">
+                    <label for="title">Masukan Judul</label>
+                    <input type="text" id="title" name="title" required>
+                </div><br>
+                <div class="form-group form-title">
+                    <label for="textNote">Masukan Tautan</label>
+                    <textarea id="textNote" name="textNote" rows="10" cols="32"></textarea>
+                </div><br>
+                <div class="button-container">
+                    <input type="button" id="cancel-input" class="btn-submit" value="Cancel"></input>
+                    <input type="submit" value="Submit" name="Submit" class="btn-submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container-header">List Tautan</h2>
+            <div class="list-item" id="note-list">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

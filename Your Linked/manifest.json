@@ -1,0 +1,16 @@
+{
+    "name": "Your Linked",
+    "description": "Tempat menyimpan link penting, di browser Google Chrome Anda.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "./assets/img/logo16.png",
+        "32": "./assets/img/logo32.png",
+        "48": "./assets/img/logo48.png",
+        "128": "./assets/img/logo128.png"
+    },
+    "browser_action": {
+        "default_tittle": "Your Linked",
+        "default_popup": "popup.html"
+    }
+}
